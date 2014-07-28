@@ -1,3 +1,11 @@
-require 'active_record'
+#!/usr/bin/env ruby
 
-# Саня, ебашит, ебашит наконец-то!
+require 'active_record'
+require '/home/jekill-hide/ruby-lessons/pinus/lib/record_class'
+
+puts "login:"
+gets user_login
+
+puts "password"
+gets user_pass
+
